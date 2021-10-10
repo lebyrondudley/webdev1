@@ -1,7 +1,7 @@
 body{
     font-family: 'Oswald', sans-serif;
     background: #918b76;
-    color:#434a42  ;
+    color:#232020  ;
 }
 header{
     text-align:center;
@@ -16,7 +16,7 @@ header h2{
 }
 
 nav a{
-    color: #434a42;
+    color: #232020;
     margin: 0 1 rem;
     font-size: 1.5rem;
     line-height: rem;
@@ -62,9 +62,10 @@ padding:1.5rem;
 
 
 footer{
-    background:#9AACA9;
+    background:#626c66;
     text-align: center;
 }
 footer p{
+    color:white;
     padding: 2rem;
 }
