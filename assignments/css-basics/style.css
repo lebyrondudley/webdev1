@@ -1,0 +1,70 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background: #918b76;
+    color:#434a42  ;
+}
+header{
+    text-align:center;
+    background:#e1ca96;
+    padding: 1rem;
+}
+header h1{ 
+    margin: 30;
+}
+header h2{
+    font-weight: 600;
+}
+
+nav a{
+    color: #434a42;
+    margin: 0 1 rem;
+    font-size: 1.5rem;
+    line-height: rem;
+
+}
+nav a:hover{
+    color:#aca885;
+}
+main{
+   
+    padding: 0rem;
+    max-width: 40rem;
+    margin:0 auto;
+
+
+}
+img {
+    width: 100%;
+    max-width: 30rem;
+    margin: 1rem auto;
+    display: block;
+    padding: 2rem;
+   
+   
+}
+section{
+    margin: 3rem;
+}
+section h3{
+    color: white;
+    font-style:initial;
+    background:#626c66;
+    margin: 0;
+    padding: .5rem;
+    
+}
+section p{
+background: #e1ca96;
+padding: 1rem;
+margin:auto;
+padding:1.5rem;
+}
+
+
+footer{
+    background:#9AACA9;
+    text-align: center;
+}
+footer p{
+    padding: 2rem;
+}
