@@ -1,0 +1,79 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+nav{
+    text-align: center;
+    padding:2rem
+}
+
+nav a {
+    margin: 0 1em;
+    
+}
+
+a{
+    font-family: 'Bakbak One', cursive;
+    text-align: center;
+
+  
+}
+a:hover{
+    color:#3fa3dc;
+}
+a{
+    font-size: 3rem;
+   
+}
+main p{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 2rem;
+    padding:2rem;
+ 
+}
+
+.brand img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+img{
+    width: 100%;
+    max-width: 60rem;
+    
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.images2{
+    width: 100%;
+    max-width: 90rem;
+    gap: 4em;
+    display: grid;
+     
+    grid-template-columns: 1fr 1fr;
+    margin:20px;
+    position: relative;     
+    
+}
+footer{
+    background:#3fa3dc;
+    text-align: center;
+    align-items: center;
+}
+footer p{
+    color:white;
+    padding: 1rem;
+    font-family: 'Zen Kurenaido', sans-serif;
+
+}
+
+@media (max-width: 500px) {
+    main {
+    grid-template-columns: 1fr;
+  }
+}
